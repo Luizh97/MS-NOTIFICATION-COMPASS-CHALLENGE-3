@@ -31,24 +31,7 @@ Documentação: localhost:8080/docs-msuser.html
  
 ## Endpoints disponíveis no microserviço
  
-### `GET /products`
- 
-Recupera a lista de todos os produtos.
- 
-**Exemplo de resposta:**
-```json
-{
-  "produtos": [
-    {
-      "id": 1,
-      "nanme": "TV",
-       "description": "TV grande e boa qualidade "
-      "price": 3000.99
-    },
-    
-  ]
-}
-```
+
  
 ### `GET /users/{id}`
  
@@ -112,7 +95,7 @@ Atualizar senha do usuário pelo ID.
 ```
 
 
-###Dificuldades:
+### `Dificuldades:`
 
 Minha maior dificuldade durante o desenvolvimento deste microserviço foi a implementação do SpringSecurity, preferi fazer a sua remoção para que fosse possível entregar uma aplicação funcional. Irei terminar todas as features que ficaram faltando como o Security e os testes.
 
